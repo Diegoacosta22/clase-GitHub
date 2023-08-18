@@ -1,0 +1,164 @@
+/* reseteo CSS */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/*cambiar la congif de la raiz*/
+
+/*por defecto
+1 rem = 16px */
+
+
+html{
+    font-size: 62,5%;
+}
+/* ahora 
+1 rem = 10px */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+#principal{
+    color: rgb(0, 255, 42);
+    background-color:red;
+    font-size: 30px;
+    text-align: center;
+}
+
+.parrafo{
+    color: blue;
+}
+
+.subrayado{
+    text-decoration: underline;
+}
+
+.fondo{
+    background-image: url(../Multimedia/descarga.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+ul{
+    list-style-type: none;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+/* tiopografia LOCAL */
+
+/* @font-face{
+    fron-family: "mifuente";
+    src: uurl(../fuentes/mifuente.ttf);
+} */ 
+
+
+
+.Logo img{
+    width: 300px;
+    height: 300px;
+
+    /* margin */
+    margin-top: 10px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+
+    /* padding */
+
+}
+
+
+
+
+
+/* Display 
+display: inline
+display: block
+display: inline-block
+*/
+
+ul li{
+    
+    display: inline-block;
+    padding-left: 50px;
+    margin: 10px;
+    
+}
+
+/* li{
+    color: rgb(3, 3, 3);
+}
+ */
+
+
+
+.redes img{
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+
+#menu {
+    position: sticky;
+    top: 0;
+    background-color: tomato;
+}
+
+.padreflex{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-flow: row wrap; */
+
+    /* justify-content: center ;
+    EJE PRINCIPAL
+    /* flex-start - center - flex-end - space-between - space-around - space-evenly */ 
+
+    /* align-items: flex-start; */
+    /* flex-start - center - flex-end - stretch - baseline
+    EJE SECUNDARIO
+    */
+
+    /* align-content: space-evenly;
+ */
+    /* MAS DE UNA LINEA DE HIJO
+    stretch - flex-start - flex-end - center - space-between - space-around - space-evenly
+    */
+}
+
+.padreflex article{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(38, 0, 255);
+    border: 1px solid white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hijorebelde1 { 
+    order: -1;
+}
+
+.hijorebelde2 {
+    order: 2;
+    display: flex;
+    
+}

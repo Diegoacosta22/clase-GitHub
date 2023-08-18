@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web</title>
+
+    <!--favicon - imagen de la pestaña -->
+    <link rel="shortcut icon" href="Multimedia/descarga.png" type="image/x-icon">
+
+    <!-- css -->
+<link rel="stylesheet" href="css/estilos.css">
+
+<!-- tipografia wed -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header id="menu"> <!-- encabezado-->
+        <nav>
+            <ul>
+                <li>Inicio</li>
+                <li>Nosotros</li>
+                <li>Recetas
+                    <!-- <ul>
+                        <li>De tortas</li>
+                        <li>De pan</li>
+                    </ul> -->
+                </li>
+                <li><a href="Paginas/galeria.html">Galeria</a></li>
+                <li><a href="Paginas/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Etiqueta cerrada -->
+    <p class="parrafo 
+    subrayado">Esto es un parrafo.</p>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ya1_Y_OLD0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <hr/>
+    <nav>
+    
+    <main id="principal">
+        <h1>SUBIO EL DOLAR.</h1>
+        <h2>seccion: Economia</h2>
+    </main>
+
+    <section>
+
+        <!-- Formulario -->
+        <form class="fondo">
+            <label for="nombre">Escriba su nombre</label>
+            <input type="text" required name="nombre">
+
+            <br>
+
+            <label for="mail">Escriba su mail</label>
+            <input type="email" name="mail">
+
+            <br>
+
+            <label for="contrasena">Ingrese su contraseña</label>
+            <input type="password" name="contrasena">
+
+            <br>
+
+            <label for="mensaje">Mandanos tu mensaje</label>
+            <textarea name="mensaje"  cols="30" rows="10"></textarea>
+
+            <br>
+
+            <!-- controles de seleccion -->
+
+            <!-- radio - una sola opcion -->
+            <label for="sexo">Elegi tu sexo</label>
+            <input type="radio" name="sexo" value="F"> Femenino
+            <input type="radio" name="sexo" value="M"> Masculino
+            <input type="radio" name="sexo" value="PN"> Prefiero no especificar
+
+            <br>
+
+            <!-- checkbox - elegir una, dos, todas o ningunas opcion-->
+            <label for="">Aceptas terminos y condiciones?</label>
+            <input type="checkbox" name="terminos" required>
+
+            <!-- menu desplegable-->
+            <label for="pais">De que pais sos?</label>
+            <select name="pais">
+                <option value="Arg">Argentina</option>
+                <option value="Urg">Uruguay</option> 
+                <option value="Bra">Brasil</option> 
+            </select>
+
+
+            <!-- Conjunto de campo -->
+            <fieldset>
+                <legend>Datos de envio:</legend>
+
+                <label for="direccion">Ingresa tu direccion</label>
+                <input type="text">
+            </fieldset>
+
+
+            <!-- no hace nada funciona con JS-->
+            <input type="button" value="no hace nada">
+            <!-- resetea el formulario-->
+            <input type="reset" value="Cuidado que borro todo">
+            <!-- enviar el formulario-->
+            <input type="submit" value="Enviame un mensaje">
+
+
+            <section>
+
+                <table border="2px">
+                    <tr>  <!-- table row -->
+                        <th>Alumno</th>
+                        <th>Curso</th>
+                        <th>Turno</th>
+                    </tr>
+                    <tr>
+                        <td>Florencia</td>
+                        <td>DW</td>
+                        <td>Mañana</td>   
+                    </tr>
+                </table>
+
+            </section>
+
+            <section>
+                <h3>Lista</h3>
+
+                <!-- lista no ordenada-->
+                <ul>
+                    <li>Manzana</li>
+                    <li>Naranjas</li>
+                </ul>
+
+                <!-- lista ordenada-->
+                <ol>
+                    <li>Poner harina</li>
+                    <li>Agregar 2 huevos</li>
+                </ol>
+
+                <section class="Logo">
+                    <img src="Multimedia/Logo.png" alt="Logo">
+                </section>
+
+                <a href="#arriba">Volver arriba</a>
+                <!-- pie de pagina-->
+
+                <footer class="footer">
+                    <div class="redes">
+                        <img src="Multimedia/facebook.png" alt="facebook">
+
+                    </div>
+                </footer>
+
+
+                <section class="padreflex">
+                    <article>
+                        <h2>Recetas1</h2>
+                    </article>
+                    <article class="hijorebelde1">
+                        <h2>Recetas2</h2>
+                    </article>
+                    <article>
+                        <h2>Recetas3</h2>
+                    </article>
+                    <article class="hijorebelde2">
+                        <h2>Recetas4</h2>
+                    </article>
+                    <article>
+                        <h2>Recetas5</h2>
+                    </article>
+                    <article>
+                        <h2>Recetas6</h2>
+                    </article>
+                </section>
+
+
+            </section>
+
+            
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           
+            
+
+
+        </form>
+
+
+    </section>
+
+</body>
+</html>
